@@ -1,4 +1,4 @@
-# Laravel 10 Raygun 錯誤追蹤
+# Laravel 11 Raygun 錯誤追蹤
 
 引入 mindscape 的 raygun4php 套件來擴增使用 Raygun 讓您即時了解網頁和手機應用程式的品質和效能，可檢測並診斷應用程式中的錯誤和異常，並將其顯示在儀表板上，更快地檢測、複製和解決問題，為您的客戶提供更好的體驗。
 
@@ -20,8 +20,8 @@ $ php artisan key:generate
 - 你可以經由 `/debug` 來進行錯誤例外觸發。
 
 ## 畫面截圖
-![](https://i.imgur.com/XRIptw1.png)
+![](https://i.imgur.com/EFucivZ.png)
 > 觸發錯誤例外以中斷程式流程
 
-![](https://i.imgur.com/aw703CT.png)
+![](https://i.imgur.com/MoeXkDc.png)
 > 使用 Raygun 確認程式錯誤的偵測
