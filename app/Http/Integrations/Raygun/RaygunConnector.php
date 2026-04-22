@@ -15,7 +15,6 @@ final readonly class RaygunConnector
     {
         $httpClient = new Client([
             'base_uri' => config('services.raygun.host'),
-            'timeout'  => 2.0,
             'headers'  => ['X-ApiKey' => config('services.raygun.key')]
         ]);
         $transport = new GuzzleSync($httpClient);
